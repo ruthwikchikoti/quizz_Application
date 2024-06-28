@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-wrapper">
+        <h1>Quiz App</h1>
+        <div class="quiz-container" id="quiz">
+            <div class="score-container">
+                <p>Score: <span id="score">0</span></p>
+            </div>
+            <div class="quiz-header">
+                <h2 id="question">Question text</h2>
+                <ul>
+                    <li id="a" class="answer"><span id="a_text">Answer A</span></li>
+                    <li id="b" class="answer"><span id="b_text">Answer B</span></li>
+                    <li id="c" class="answer"><span id="c_text">Answer C</span></li>
+                    <li id="d" class="answer"><span id="d_text">Answer D</span></li>
+                </ul>
+            </div>
+            <div class="progress-container">
+                <div class="progress" id="progress"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
